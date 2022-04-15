@@ -5,8 +5,8 @@ Please clone the repo and in the terminal when inside the folder, please run:
 2. npm start
 
 The application does the following:
-Fetch Code Snippet from Mock API or Json files, Identify model structure from the given example.
-Show listing of 10 snippets on page load.
+Fetch Code Snippet from Mock API or Json files, taken model structure from https://www.tabnine.com/code/javascript/modules/express
+Shows listing of 10 snippets on page load.
 The Search option will refine the code snippets based on search input.
 
-This application can be improved a lot and I am working on it. 
+This application is so far built in vanilla js can be improved a lot and I am working on it. 
