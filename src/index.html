@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Get Code Snippets</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        #code-snippets-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 100%;
+        }
+
+        .code-snip {
+            box-shadow: 5px 5px 7px #373636;
+            margin: 10px 5px;
+            padding: 4rem;
+            width: 50%;
+            white-space: normal;
+            line-height: 2;
+            font-weight: 900;
+        }
+
+        label {
+            margin-left: 20px;
+        }
+
+        #searchbox {
+            height: 2rem;
+            width: 150px;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .is-hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <label for="searchbox">Search Code Snippets</label>
+        <input type="search" id="searchbox" placeholder="Search..">
+        <pre class="line-numbers">
+            <code class="language-css" id="code-snippets-container">
+      
+             </code>
+        </pre>
+        <div class="page-numbers" id="pagination"></div>
+    </div>
+</body>
+
+</html>
